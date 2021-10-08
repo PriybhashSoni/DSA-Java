@@ -1,6 +1,5 @@
 package Sorting;
 
-
 class countSort {
 	void sort(char arr[])
 	{
