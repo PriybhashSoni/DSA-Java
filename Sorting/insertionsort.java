@@ -13,7 +13,6 @@ class InsertionSort {
 			arr[j + 1] = key;
 		}
 	}
-
 	
 	static void printArray(int arr[])
 	{
