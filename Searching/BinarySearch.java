@@ -5,7 +5,7 @@ class BinarySearch {
             int mid = l + (r - l) / 2;
             if (arr[mid] == x)
                 return mid;
- 
+
             if (arr[mid] > x)
                 return binarySearch(arr, l, mid - 1, x);
   
