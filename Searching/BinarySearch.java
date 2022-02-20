@@ -9,7 +9,7 @@ class BinarySearch {
             if (arr[mid] > x)
                 return binarySearch(arr, l, mid - 1, x);
   
-        
+       
             return binarySearch(arr, mid + 1, r, x);
         }
   
