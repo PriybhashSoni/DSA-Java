@@ -3,7 +3,7 @@ class Solution {
         long result = 0;
         long count[] = new long[101];
         long mod = 1000000007;
-	
+
 
         for(int i: arr) count[i]++;
        
