@@ -4,7 +4,7 @@ class Solution {
         long count[] = new long[101];
         long mod = 1000000007;
 	
-	
+
         for(int i: arr) count[i]++;
         
         for(int i=0;i<101;i++){
