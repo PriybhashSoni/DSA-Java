@@ -7,7 +7,7 @@ class Solution {
                 scores[idx] = scores[idx - 1] + scores[idx - 2];
                 idx++;
             }
-            else if (py.equals("D")) {
+           else if (py.equals("D")) {
                 scores[idx] = 2 * scores[idx - 1];
                 idx++;
             } 
